@@ -23,9 +23,9 @@ Mitigations of all Medium issues listed here will be considered in-scope:
 
 | Fix | Mitigation of | Notes | 
 | ----------- | ------------- | ----------- |
-| [Commit 143](https://github.com/0xIntuition/intuition-contracts-v2/pull/143) | [S-149](https://code4rena.com/audits/2026-03-intuition/submissions/S-149) | same PR as S-145|
-| [Commit 144](https://github.com/0xIntuition/intuition-contracts-v2/pull/144) | [S-112](https://code4rena.com/audits/2026-03-intuition/submissions/S-112) | |
-| [Commit 144](https://github.com/0xIntuition/intuition-contracts-v2/pull/144) | [S-595](https://code4rena.com/audits/2026-03-intuition/submissions/S-595) | same PR as S-112 |
+| [PR 143](https://github.com/0xIntuition/intuition-contracts-v2/pull/143) | [S-149](https://code4rena.com/audits/2026-03-intuition/submissions/S-149) | same PR as S-145|
+| [PR 144](https://github.com/0xIntuition/intuition-contracts-v2/pull/144) | [S-112](https://code4rena.com/audits/2026-03-intuition/submissions/S-112) | |
+| [PR 144](https://github.com/0xIntuition/intuition-contracts-v2/pull/144) | [S-595](https://code4rena.com/audits/2026-03-intuition/submissions/S-595) | same PR as S-112 |
 
 ### Additional scope to be reviewed
 
@@ -33,8 +33,8 @@ These are additional changes that will be in scope.
 
 | Fix | Mitigation of | Notes | 
 | ----------- | ------------- | ----------- |
-| [Commit 143](https://github.com/0xIntuition/intuition-contracts-v2/pull/143) | [S-145](https://code4rena.com/audits/2026-03-intuition/submissions/S-145) | same PR as S-149  | 
-| [Commit 10](https://github.com/0xIntuition/intuition-contracts-v2-periphery/pull/10) | [S-324](https://code4rena.com/audits/2026-03-intuition/submissions/S-324) |  | 
+| [PR 143](https://github.com/0xIntuition/intuition-contracts-v2/pull/143) | [S-145](https://code4rena.com/audits/2026-03-intuition/submissions/S-145) | same PR as S-149  | 
+| [PR 10](https://github.com/0xIntuition/intuition-contracts-v2-periphery/pull/10) | [S-324](https://code4rena.com/audits/2026-03-intuition/submissions/S-324) |  | 
 
 ## Out of Scope
 All other issues arising from the Intuition audit are out of scope.
