@@ -1,10 +1,10 @@
-# [Sponsorname] Mitigation Review
-- Total Prize Pool: XXX XXX
+# Intuition Mitigation Review
+- Total Prize Pool: $4,000 
   - Warden awards: XXX XXX
   - Judge awards: XXX XXX
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Starts TBD XXX XXX XX 20:00 UTC (ex. `Starts March 22, 2023 20:00 UTC`)
-- Ends TBD XXX XXX XX 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
+- Starts March 31st, 2026 20:00 UTC 
+- Ends April 3rd, 2026 20:00 UTC (ex. `Ends March 30, 2023 20:00 UTC`)
 
 ## Important note 
 
