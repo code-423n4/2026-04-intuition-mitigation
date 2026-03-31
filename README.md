@@ -12,8 +12,32 @@ Each warden must submit a mitigation review for *every* individual item listed i
 
 ## Overview of changes 
 
-[ ⭐️ SPONSORS ADD INFO HERE ]
-Please provide context about the mitigations that were applied if applicable and identify any areas of specific concern. 
+These mitigation PRs are intentionally narrow and should be reviewed only against the findings listed in `Scope`.
+
+Key context by PR:
+
+- **PR 143 (`S-149`, `S-145`)**
+  - Scope is limited to `AtomWallet` signature-validation hardening.
+  - `S-149`: 77-byte signatures now bind `(userOpHash, validUntil, validAfter)` into the signed digest so validity-window metadata cannot be tampered with by relayers/bundlers.
+  - `S-145`: malformed / invalid signature paths now fail validation without reverting, aligning with intended ERC-4337 validation-failure semantics.
+  - 65-byte signatures intentionally preserve existing “unbounded validity window” behavior.
+  - Legacy 77-byte signatures that did not sign over timing metadata are intentionally no longer valid.
+
+- **PR 144 (`S-112`, `S-595`)**
+  - This PR is one combined mitigation set for the same reward-accounting family.
+  - `S-112` is the primary root-cause fix: boundary-exclusive epoch accounting removes closed-epoch mutability at the boundary.
+  - `S-595` is addressed both by that root-cause fix and by an explicit per-epoch claim-budget guardrail.
+  - Review should focus on whether prior-epoch reward eligibility can still be changed at the epoch boundary and whether total claimed rewards can exceed epoch emissions.
+
+- **PR 10 (`S-324`)**
+  - Scope is limited to downstream ETH refund handling in `TrustSwapAndBridgeRouter`.
+  - The change is intentionally minimal: the router can now accept ETH dust refunded by the downstream SwapRouter refund path.
+  - Review should focus on whether swaps can still be made to revert through that refund path.
+  - Broader integration/composability questions outside the listed finding are out of scope for this mitigation review.
+
+General note:
+- Parent-contest invalid / intended-behavior findings are not reopened here unless the mitigation itself introduces a new issue in scope.
+- Please evaluate each PR against the listed finding(s) only, plus any directly introduced mitigation regressions.
 
 ## Scope
 
