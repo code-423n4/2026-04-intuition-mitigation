@@ -3,8 +3,8 @@
   - Warden awards: $3,000 in USDC
   - Judge awards: $1,000 in USDC
 - [Warden guidelines for C4 mitigation reviews](https://code4rena.notion.site/Guidelines-for-C4-mitigation-reviews-ed10fc5cfbf640bd8dcec66f38b343c4)
-- Starts March 31st, 2026 20:00 UTC 
-- Ends April 3rd, 2026 20:00 UTC
+- Starts April 2nd, 2026 20:00 UTC 
+- Ends April 6th, 2026 20:00 UTC
 
 ## Important note 
 
