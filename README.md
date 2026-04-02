@@ -48,7 +48,7 @@ Mitigations of all Medium issues listed here will be considered in-scope:
 | Fix | Mitigation of | Notes | 
 | ----------- | ------------- | ----------- |
 | [PR 143](https://github.com/0xIntuition/intuition-contracts-v2/pull/143) | [S-149: Unsigned validity window metadata](https://code4rena.com/audits/2026-03-intuition/submissions/S-149) | same PR as S-145|
-| [PR 144](https://github.com/0xIntuition/intuition-contracts-v2/pull/144) | [S-112: redacted - see below]](https://code4rena.com/audits/2026-03-intuition/submissions/S-112) | |
+| [PR 144](https://github.com/0xIntuition/intuition-contracts-v2/pull/144) | [S-112: redacted - see below](https://code4rena.com/audits/2026-03-intuition/submissions/S-112) | |
 | [PR 144](https://github.com/0xIntuition/intuition-contracts-v2/pull/144) | [S-595: redacted - see below](https://code4rena.com/audits/2026-03-intuition/submissions/S-595) | same PR as S-112 |
 
 ### Additional scope to be reviewed
