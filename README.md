@@ -58,7 +58,7 @@ These are additional changes that will be in scope.
 | Fix | Mitigation of | Notes | 
 | ----------- | ------------- | ----------- |
 | [PR 143](https://github.com/0xIntuition/intuition-contracts-v2/pull/143) | [S-145: AtomWallet's validateUserOp reverts on invalid Signatures, violating ERC-4337 and Enabling Griefing Attacks](https://code4rena.com/audits/2026-03-intuition/submissions/S-145) | same PR as S-149  | 
-| [PR 10](https://github.com/0xIntuition/intuition-contracts-v2-periphery/pull/10) | [S-324: https://code4rena.com/audits/2026-03-intuition/submissions/S-324](https://code4rena.com/audits/2026-03-intuition/submissions/S-324) |  | 
+| [PR 10](https://github.com/0xIntuition/intuition-contracts-v2-periphery/pull/10) | [S-324: DoS of TrustSwapAndBridgeRouter Swap Functions via SwapRouter's sweepToken](https://code4rena.com/audits/2026-03-intuition/submissions/S-324) |  | 
 
 ## Out of Scope
 All other issues arising from the Intuition audit are out of scope.
