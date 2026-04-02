@@ -63,10 +63,10 @@ These are additional changes that will be in scope.
 ## Out of Scope
 All other issues arising from the Intuition audit are out of scope.
 
-## Redacted findings
+## Redacted submissions
 
 | Submission ID | Gist | Notes |
 | ------------- | ----------- | ----------- |
 | [S-112](https://code4rena.com/audits/2026-03-intuition/submissions/S-112) | [Epoch Boundary Inclusion Allows Reward Dilution (Inclusive Epoch-End Snapshot Allows Retroactive Eligibility + Emissions Dilution)](https://gist.github.com/itsmetechjay/4bbd403b6331bb615a99dacf5cd63a77) |
 | [S-595](https://code4rena.com/audits/2026-03-intuition/submissions/S-595)	| [Boundary claim ordering allows rewards overclaim beyond epoch budget in `TrustBonding`](https://gist.github.com/itsmetechjay/379745460df4a6d7ee69de9deb5a85dd) |
-| [S-239](https://code4rena.com/audits/2026-03-intuition/submissions/S-239) | [Epoch-boundary checkpoints retroactively qualify for the previous epoch's rewards](https://gist.github.com/itsmetechjay/684323739146783b0c59f972a682ecb8) | Primary submission for the group |
+| [S-239](https://code4rena.com/audits/2026-03-intuition/submissions/S-239) | [Epoch-boundary checkpoints retroactively qualify for the previous epoch's rewards](https://gist.github.com/itsmetechjay/684323739146783b0c59f972a682ecb8) | Primary submission of group including S-112 and S-595 |
